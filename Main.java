@@ -9,7 +9,7 @@ import javax.naming.ldap.PagedResultsControl;
     public class Main {
         public static void main(String[] args) {
 
-        /*Car car = new Car("Лада", "Гранта", null, -2011, null, 220,
+        Car car = new Car("Лада", "Гранта", null, -2011, null, 220,
                 1.6f, "МКПП", "Седан", "а111аа011", 5, true,
                 "", "", "2022.12.12", 12500f, "12456789");
         System.out.println(car);
@@ -46,7 +46,7 @@ import javax.naming.ldap.PagedResultsControl;
         Bus touristBus = new Bus("Mercedes-Benz", "Sprinter", "", 2017, "Германия", 160);
         System.out.println(schoolBus);
         System.out.println(intercityBus);
-        System.out.println(touristBus);*/
+        System.out.println(touristBus);
             Herbivore horse = new Herbivore("Лошадь", 3, 40);
             Herbivore gazelle = new Herbivore("Газель", 2, 45);
             Herbivore giraffe = new Herbivore("Жираф", 2, 4);
